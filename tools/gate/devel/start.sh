@@ -95,7 +95,7 @@ function dump_logs () {
   set +e
   rm -rf ${LOGS_DIR} || true
   mkdir -p ${LOGS_DIR}/ara
-  ara generate html ${LOGS_DIR}/ara
+#  ara generate html ${LOGS_DIR}/ara
   exit $1
 }
 trap 'dump_logs "$?"' ERR

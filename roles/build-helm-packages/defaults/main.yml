@@ -15,4 +15,5 @@
 version:
   helm: v2.13.1
 url:
-  google_helm_repo: https://storage.googleapis.com/kubernetes-helm
+  #google_helm_repo: https://storage.googleapis.com/kubernetes-helm
+  google_helm_repo: http://10.110.31.24
