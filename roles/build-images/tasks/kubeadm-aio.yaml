@@ -73,7 +73,7 @@
       when: not proxy.http
       shell: |-
               set -e
-              docker build \
+              docker build --no-cache \
                 --network host \
                 --force-rm \
                 --tag "{{ images.kubernetes.kubeadm_aio }}" \
